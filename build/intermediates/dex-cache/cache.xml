@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\sx\BingPicAnother\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\sx\BingPicAnother\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c776b3259139162c0a2f83a81648ec9ff52e2152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\sx\BingPicAnother\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a8eb1dd123d92d5a7cfdc713c671dc0701896716">
+        <dex dex="D:\sx\BingPicAnother\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a5cc83da04bbec4e5f257a3aa3dc575b6ef5ce2a\classes.dex" />
+    </item>
+
+</items>
