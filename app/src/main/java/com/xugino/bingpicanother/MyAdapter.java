@@ -1,6 +1,7 @@
 package com.xugino.bingpicanother;
 
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,9 +56,10 @@ public class MyAdapter extends BaseAdapter
         }else{
             viewHolder=(ViewHolder)convertView.getTag();
         }
-        viewHolder.pic.setImageResource((int)data.getData().get(position).get("pic"));
-        viewHolder.text.setText((CharSequence) data.getData().get(position).get("text"));
-        viewHolder.time.setText((CharSequence) data.getData().get(position).get("time"));
+
+        viewHolder.pic.setImageBitmap((Bitmap) data.getList().get(position).get("pic"));
+        viewHolder.text.setText((CharSequence) data.getList().get(position).get("text"));
+        viewHolder.time.setText((CharSequence) data.getList().get(position).get("time"));
         viewHolder.btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

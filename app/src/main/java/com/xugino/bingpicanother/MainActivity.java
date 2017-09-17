@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData(){
-        mList.addAll(data.getData());
+        data.getData();
+        mList.addAll(data.getList());
         mAdapter.notifyDataSetChanged();
     }
 

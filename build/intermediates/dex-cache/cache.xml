@@ -19,5 +19,14 @@
         sha1="a8eb1dd123d92d5a7cfdc713c671dc0701896716">
         <dex dex="D:\sx\BingPicAnother\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a5cc83da04bbec4e5f257a3aa3dc575b6ef5ce2a\classes.dex" />
     </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="D:\sx\BingPicAnother\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_1162c101d6048d3b1fdbdab70ef759c67bf31b1e\classes.dex" />
+    </item>
 
 </items>
